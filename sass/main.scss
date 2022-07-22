@@ -1,0 +1,182 @@
+@import 'variable';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $white-clr;
+    font-family: $font-nunito;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: $heading-clr;
+    min-height: 100vh;
+}
+
+h1{
+    font-family: $font-sen;
+    color:$white-clr ;
+    font-size:3.6rem ;
+    line-height: 1.11;
+    font-weight: 700;
+    max-width: 600px;
+}
+
+h2{
+    font-family: $font-sen;
+    color: $heading-clr;
+    font-size: 2.4rem;
+    line-height: 1.67;
+    font-weight: 700;
+    letter-spacing:  -0.05em;
+}
+
+h3{
+    font-family: $font-sen;
+    font-weight:700 ;
+    font-size: 1.3rem;
+    line-height: 1.23;
+    letter-spacing: -0.05em;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+.btn{
+    padding: 10px 20px;
+    font-family: $font-nunito;
+    color: $white-clr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:2 ;
+    background: $primary-clr;
+    box-shadow: 0px 4px 10px rgba(244, 67, 54, 0.1), 0px 10px 90px -10px rgba(244, 67, 54, 0.4);
+    border-radius: 4px;
+    border: none;
+}
+
+.btn1{
+    padding: 20px 30px ;
+    font-family: $font-nunito;
+    color: $white-clr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height:1.78 ;
+    border: 1px solid $white-clr;
+    border-radius: 4px;
+    background-color: transparent;
+
+}
+
+span.span-title {
+    font-family: $font-sen;
+    font-style: normal;
+    font-weight: 700;
+    font-size:0.78rem ;
+    line-height: 1.14;
+    color: #FF5A6F;
+}
+
+
+//header section
+.headertop{
+    border: 1px solid $heading-clr;
+    a{
+        padding: 15px;
+        text-decoration: none;
+        display: inline-block;
+        i{
+            margin-right: 9px;
+        }
+        border-right: 1px solid $heading-clr;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.headertop .headertop-left,.headertop-right .social:nth-child(1) {
+    border-left: 1px solid $heading-clr;
+}
+
+.headerbottom{
+    padding: 30px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+
+        .headerbottom-right{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            gap: 56px;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                gap: 56px;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+//hero section
+.hero{
+    padding: 120px 0;
+    background-image: url(/images/Frame\ 6.png);
+    .container{
+        h1{
+            margin: 24px 0;
+        }
+        .hero-contents{
+            display: flex;
+            gap: 24px;
+            .content{
+                display: inline-block;
+                border: 1px solid rgba(255, 255, 255, 0.7);
+                border-radius: 4px;
+                padding: 24px 26px;
+                text-align: center;
+                .text{
+                    color: $white-clr;
+                    span.time {
+                        font-size: 40px;
+                        line-height: 48px;
+                    }
+                    p {
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+        .event{
+            padding: 50px 0;
+            display: flex;
+            gap: 32px;
+            a{
+                text-decoration: none;
+                color: $white-clr;
+                i{
+                    margin-right: 8px;
+                }
+            }
+        }
+        .click{
+            display: flex;
+            gap: 21px;
+        }
+    }
+}

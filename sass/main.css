@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(0, 36, 88, 0.9);
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Sen", sans-serif;
+  color: #fff;
+  font-size: 3.6rem;
+  line-height: 1.11;
+  font-weight: 700;
+  max-width: 600px;
+}
+
+h2 {
+  font-family: "Sen", sans-serif;
+  color: rgba(0, 36, 88, 0.9);
+  font-size: 2.4rem;
+  line-height: 1.67;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+h3 {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.23;
+  letter-spacing: -0.05em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2;
+  background: linear-gradient(136.29deg, #FF5A6F 2.04%, #FC442B 180.13%);
+  box-shadow: 0px 4px 10px rgba(244, 67, 54, 0.1), 0px 10px 90px -10px rgba(244, 67, 54, 0.4);
+  border-radius: 4px;
+  border: none;
+}
+
+.btn1 {
+  padding: 20px 30px;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.78;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+span.span-title {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.78rem;
+  line-height: 1.14;
+  color: #FF5A6F;
+}
+
+.headertop {
+  border: 1px solid rgba(0, 36, 88, 0.9);
+}
+.headertop a {
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+  border-right: 1px solid rgba(0, 36, 88, 0.9);
+}
+.headertop a i {
+  margin-right: 9px;
+}
+.headertop .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headertop .headertop-left, .headertop-right .social:nth-child(1) {
+  border-left: 1px solid rgba(0, 36, 88, 0.9);
+}
+
+.headerbottom {
+  padding: 30px 0;
+}
+.headerbottom .container {
+  display: flex;
+  justify-content: space-between;
+}
+.headerbottom .container .headerbottom-right {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+.headerbottom .container .headerbottom-right ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+}
+.headerbottom .container .headerbottom-right ul a {
+  text-decoration: none;
+}
+
+.hero {
+  padding: 120px 0;
+  background-image: url(/images/Frame\ 6.png);
+}
+.hero .container h1 {
+  margin: 24px 0;
+}
+.hero .container .hero-contents {
+  display: flex;
+  gap: 24px;
+}
+.hero .container .hero-contents .content {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  padding: 24px 26px;
+  text-align: center;
+}
+.hero .container .hero-contents .content .text {
+  color: #fff;
+}
+.hero .container .hero-contents .content .text span.time {
+  font-size: 40px;
+  line-height: 48px;
+}
+.hero .container .hero-contents .content .text p {
+  font-size: 20px;
+  line-height: 20px;
+}
+.hero .container .event {
+  padding: 50px 0;
+  display: flex;
+  gap: 32px;
+}
+.hero .container .event a {
+  text-decoration: none;
+  color: #fff;
+}
+.hero .container .event a i {
+  margin-right: 8px;
+}
+.hero .container .click {
+  display: flex;
+  gap: 21px;
+}/*# sourceMappingURL=main.css.map */
